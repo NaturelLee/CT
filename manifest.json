@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "Tasks",
+	"version": "1.0.0",
+	"description": "__MSG_pluginDesc__",
+	"icons":
+	{
+		"16": "img/icon.png",
+		"48": "img/icon.png",
+		"128": "img/icon.png"
+	},
+	"permissions":
+	[
+		"contextMenus",
+		"tabs",
+		"notifications",
+		"webRequest",
+		"webRequestBlocking",
+		"storage",
+		"http://*/*",
+		"https://*/*"
+	],
+	"homepage_url": "https://www.github.com/naturellee",
+	"chrome_url_overrides": {
+		"newtab": "newtab.html"
+	},
+	"default_locale": "zh_CN"
+}
